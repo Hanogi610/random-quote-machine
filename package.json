@@ -1,0 +1,19 @@
+{
+  "name": "random-quote-machine",
+  "version": "1.0.0",
+  "description": "freeCodeCamp Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hanogi610/random-quote-machine.git"
+  },
+  "author": "HoangP",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hanogi610/random-quote-machine/issues"
+  },
+  "homepage": "https://github.com/Hanogi610/random-quote-machine#readme"
+}
