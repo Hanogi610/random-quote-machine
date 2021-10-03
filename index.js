@@ -13,11 +13,11 @@ function getQuote(){
   getQuotes().then(key => {
     $("author").innerHTML = key.author;
     $("text").innerHTML = key.quote;
+    $("tweet-quote").setAttribute(
+      "href",
+      "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" +
+        encodeURIComponent('"' + key.author + '" ' + key.quote)
+    );
   });
-  $("tweet-quote").setAttribute(
-    "href",
-    "https://twitter.com/intent/tweet?hashtags=quotes&related=freecodecamp&text=" +
-      encodeURIComponent('"' + currentQuote + '" ' + currentAuthor)
-  );
 }
 $("new-quote").onclick = getQuote();
