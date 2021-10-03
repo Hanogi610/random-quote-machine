@@ -6,20 +6,20 @@ body {
   background-position: center;
 }
 
-.quote-box {
+#quote-box {
   width: 30%;
-  height: auto;
-  margin: 10% auto auto auto;
-  display: block;
+  margin: 5% auto auto auto;
+  position: relative;
+  display: table;
   background-color: white;
 }
 
-.quote-box #quote-text {
+#quote-box #quote-text {
   font-size: 40px;
   padding: 5%;
 }
 
-.quote-box #author {
+#quote-box #author {
   text-align: right;
   padding: 5%;
 }
