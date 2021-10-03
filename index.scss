@@ -1,0 +1,22 @@
+body{
+    height: 100vh;
+    background-image: url('https://cdn.shopify.com/s/files/1/0090/9236/6436/articles/Shopify_Dawn_Theme.png?v=1626628461');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .quote-box{
+    width: 30%;
+    height:auto;
+    margin: 10% auto auto auto;
+    display: block;
+    background-color: white;
+    #quote-text {
+        font-size: 40px;
+        padding: 5%;
+    }
+    #author {
+        text-align: right;
+        padding: 5%;
+    }
+  }
